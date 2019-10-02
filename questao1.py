@@ -8,7 +8,7 @@ def raizes (a,b,c):
         retorno = 0
     else:
         re_raiz = (-b)/(2*a)
-        im_raiz((-delta)**0.5)/(2*a)
+        im_raiz=((-delta)**0.5)/(2*a)
         print('Raíz 1: ',re_raiz,' + ',im_raiz,'i')
         print('Raíz 2: ',re_raiz,' - ',im_raiz,'i')
         retorno = 1
