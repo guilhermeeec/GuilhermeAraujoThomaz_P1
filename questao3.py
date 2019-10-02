@@ -6,9 +6,9 @@ x = 1
 while diferenca > 0.00000005:
     pi_anterior = pi
     if x%2 == 0:
-        termo = (-4)/(2x-1)
+        termo = (-4)/(2*x-1)
     else:
-        termo = (-4)/(2x-1)
+        termo = 4/(2*x-1)
     pi = pi + termo
     x += 1
     if pi > pi_anterior:
